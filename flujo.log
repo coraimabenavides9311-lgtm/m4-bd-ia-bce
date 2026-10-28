@@ -1,0 +1,10 @@
+2026-10-28 02:29:56,826 INFO extraidas 6 filas
+2026-10-28 02:29:56,828 INFO transformacion y validaciones correctas
+2026-10-28 02:29:56,831 INFO guardado salida/mi_flujo_2026-10-28.csv (6 filas)
+2026-10-28 02:29:56,831 INFO FIN OK
+2026-10-28 02:29:57,922 INFO extraidas 6 filas
+2026-10-28 02:29:57,923 ERROR EL FLUJO FALLO: esperaba 7 filas y llegaron 6
+2026-10-28 02:29:58,925 INFO extraidas 6 filas
+2026-10-28 02:29:58,926 INFO transformacion y validaciones correctas
+2026-10-28 02:29:58,929 INFO guardado salida/mi_flujo_2026-10-28.csv (6 filas)
+2026-10-28 02:29:58,929 INFO FIN OK
