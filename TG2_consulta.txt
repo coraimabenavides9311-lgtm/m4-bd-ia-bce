@@ -1,6 +1,33 @@
 CONSULTA DOCUMENTADA
-1. ¿De donde sale?   Direccion o ruta exacta: ___    Fecha del corte de la fuente: ___
-2. ¿Que se pidio?    Parametros (juntos, con su valor): ___
-3. ¿Que se esperaba recibir?   Filas / columnas / totales esperados: ___
-4. ¿Que se hizo?     Transformaciones, en orden, cada una con lo que hace: ___
-5. ¿Quien y cuando?  Autor: ___    Fecha: ___    Licencia de la fuente (o 'no la declara'): ___
+
+1. ¿De donde sale?
+Direccion o ruta exacta: datos/exportaciones.csv
+Fecha del corte de la fuente: No especificada.
+Fuente: Archivo CSV con datos sinteticos de exportaciones,
+proporcionado para el laboratorio.
+
+2. ¿Que se pidio?
+Parametros:
+RUTA_ENTRADA = datos/exportaciones.csv
+FILAS_ESPERADAS = 6
+COLUMNAS_ESPERADAS = 2
+SALIDA = salida/mi_flujo_fecha.csv
+
+3. ¿Que se esperaba recibir?
+Se esperaban 6 filas y 2 columnas:
+producto y monto_mm_usd.
+Los montos debian ser numericos, no estar vacios
+y no contener valores negativos.
+
+4. ¿Que se hizo?
+Primero, se extrajeron los datos del archivo CSV.
+Segundo, se verifico la cantidad de filas y columnas.
+Tercero, se transformo la columna de montos a numerica.
+Cuarto, se comprobaron valores vacios y negativos.
+Finalmente, se guardaron los datos validados en un
+archivo CSV con la fecha de ejecucion.
+
+5. ¿Quien y cuando?
+Autor: Coraima Benavides
+Fecha: 28/10/2026
+Licencia de la fuente: No la declara.
